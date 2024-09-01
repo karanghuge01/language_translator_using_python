@@ -8,5 +8,5 @@ Abstract -
  googletrans:-googletrans is use to translate the language
 
  Screen Snapshots -
-
+![Screenshot 2024-09-01 184706](https://github.com/user-attachments/assets/424c17d3-3e99-4e39-852e-4aa78013f9c3)
 
