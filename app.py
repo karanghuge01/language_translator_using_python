@@ -1,7 +1,7 @@
 
 from tkinter import  *
 from tkinter import  ttk
-from googletrans import Translator, LANGUAGES # type: ignore
+from googletrans import Translator, LANGUAGES 
 
 #function for translate the data ans store in variable
 def change(text="Type",src="English",dest="English"):
