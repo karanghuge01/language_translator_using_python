@@ -1,6 +1,6 @@
 
 from tkinter import  *
-from tkinter import  ttk
+from tkinter import  ttk #Combobox widget is created using the ttk.Combobox class from the tkinter.ttk module.
 from googletrans import Translator, LANGUAGES 
 
 #function for translate the data ans store in variable
@@ -24,7 +24,7 @@ def data():
 
 
 
-
+#To create a main window Tk used
 root = Tk()
 root.title("Translator")
 root.geometry("500x700")
@@ -64,4 +64,5 @@ dest_txt.place(x=100,y=360,height=20,width=300)
 dest_txt = Text(frame,font=("Time New Roman",15,"bold"),wrap=WORD)
 dest_txt.place(x=10,y=400,height=150,width=480)
 
+#mainloop() is an infinite loop used to run the application.
 root.mainloop()
